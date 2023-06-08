@@ -1,0 +1,50 @@
+import { v4 } from "uuid";
+
+export const FOLLOWERS = [
+    {
+        id: v4(),
+        color: 'blue',
+        src: '/public/images/icon-facebook.svg',
+        alt: 'FACEBOOK',
+        hastag: '@nathanf',
+        number: '1987',
+        text: 'FOLLOWERS',
+        today: '12 Today',
+        img: '/public/images/icon-up.svg',
+    },
+    {
+        id: v4(),
+        color: 'blue',
+        src: '/public/images/icon-twitter.svg',
+        alt: 'TWITTER',
+        hastag: '@nathanf',
+        number: '1044',
+        text: 'FOLLOWERS',
+        today: '99 Today',
+        img: '/public/images/icon-up.svg',
+    },
+    {
+        id: v4(),
+        color: 'rose',
+        src: '/public/images/icon-instagram.svg',
+        alt: 'INSTAGRAM',
+        hastag: '@realnathanf',
+        number: '11k',
+        text: 'FOLLOWERS',
+        today: '1099 Today',
+        img: '/public/images/icon-up.svg',
+    },
+    {
+        id: v4(),
+        color: 'red',
+        letter: 'red',
+        src: '/public/images/icon-youtube.svg',
+        alt: 'YOUTUBE',
+        hastag: 'Nathan F.',
+        number: '8239',
+        text: 'FOLLOWERS',
+        today: '144 Today',
+        img: '/public/images/icon-down.svg',
+        
+    },
+]
