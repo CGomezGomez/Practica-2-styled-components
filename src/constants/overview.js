@@ -64,7 +64,7 @@ export const OVERVIEW = [
         alt: '7',
         texto: 'Likes',
         number: '107',        
-        percentage: '10%'
+        percentage: '19%'
     },
     {
         id: v4(),

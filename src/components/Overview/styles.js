@@ -15,6 +15,7 @@ const StyledSocial = styled.div`
 const StyledRow = styled.div`
     width: 80%;
     margin: auto;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
