@@ -38,7 +38,7 @@ const StyledContainerButton = styled.div`
         
 `;
 
-const StyledLittle = styled.button`
+const StyledButton = styled.button`
     width: 25px;
     background-color: ${props => (props.active 
         ? 'rgba(37, 43, 66, 1)' 
@@ -80,4 +80,4 @@ const StyledH3 = styled.h3`
 `;
 
 
-export { StyledH1, StyledH3, StyledHeader, StyledContainerButton, StyledRight ,StyledLittle , StyledLeft};
+export { StyledH1, StyledH3, StyledHeader, StyledContainerButton, StyledRight ,StyledButton , StyledLeft};

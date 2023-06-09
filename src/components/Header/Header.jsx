@@ -1,4 +1,4 @@
-import { StyledContainerButton, StyledLittle, StyledH1, StyledH3, StyledHeader, StyledRight, StyledLeft, } from "./styles"
+import { StyledContainerButton, StyledButton, StyledH1, StyledH3, StyledHeader, StyledRight, StyledLeft, } from "./styles"
 
 
 const Header = ({active, setActive})=>{
@@ -13,10 +13,10 @@ const Header = ({active, setActive})=>{
                 <StyledRight>
                     <StyledH3>Dark Mode</StyledH3>
                     <StyledContainerButton active={active}>
-                        <StyledLittle 
+                        <StyledButton 
                         onClick={()=>dark(active,setActive)}
                         active={active}
-                        ></StyledLittle>
+                        ></StyledButton>
                     </StyledContainerButton>
                 </StyledRight>
             </StyledHeader>
