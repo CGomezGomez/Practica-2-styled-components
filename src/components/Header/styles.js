@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
-const StyledContainer = styled.div`
+const StyledHeader = styled.header`
+
 
     width: 1110px;
     padding-bottom: 4rem;
     margin: auto;
-   
-`;
-
-const StyledHeader = styled.header`
-
     display: flex;
     justify-content: space-between;
    
@@ -44,14 +40,14 @@ const StyledContainerButton = styled.div`
 
 const StyledLittle = styled.button`
     width: 25px;
-    aspect-ratio: 1;
     background-color: ${props => (props.active 
         ? 'rgba(37, 43, 66, 1)' 
         : 'rgba(241, 243, 250, 1)')};
+    aspect-ratio: 1;
     border-radius: 100%;
     border: 0;
-    transition: .5s linear;
     position: absolute;
+    transition: .5s linear;
     left: ${props =>(props.active 
         ? '3px' 
         : '30px')};
@@ -84,4 +80,4 @@ const StyledH3 = styled.h3`
 `;
 
 
-export {StyledContainer, StyledH1, StyledH3, StyledHeader, StyledContainerButton, StyledRight ,StyledLittle , StyledLeft};
+export { StyledH1, StyledH3, StyledHeader, StyledContainerButton, StyledRight ,StyledLittle , StyledLeft};

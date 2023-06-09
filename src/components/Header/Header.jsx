@@ -1,10 +1,10 @@
-import { StyledContainerButton, StyledLittle, StyledContainer, StyledH1, StyledH3, StyledHeader, StyledRight, StyledLeft, } from "./styles"
+import { StyledContainerButton, StyledLittle, StyledH1, StyledH3, StyledHeader, StyledRight, StyledLeft, } from "./styles"
 
 
 const Header = ({active, setActive})=>{
 
     return(
-        <StyledContainer>
+        
             <StyledHeader>
                 <StyledLeft>
                     <StyledH1 active={active}>Social Media Dashboard</StyledH1>
@@ -20,7 +20,7 @@ const Header = ({active, setActive})=>{
                     </StyledContainerButton>
                 </StyledRight>
             </StyledHeader>
-        </StyledContainer>
+       
     )
 }
 
