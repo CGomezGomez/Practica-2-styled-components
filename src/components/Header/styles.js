@@ -28,7 +28,7 @@ const StyledRight = styled.div`
 
 `;
 
-const StyledButton = styled.div`
+const StyledContainerButton = styled.div`
 
     position: relative;
     display: flex;
@@ -84,4 +84,4 @@ const StyledH3 = styled.h3`
 `;
 
 
-export {StyledContainer, StyledH1, StyledH3, StyledHeader, StyledButton, StyledRight ,StyledLittle , StyledLeft};
+export {StyledContainer, StyledH1, StyledH3, StyledHeader, StyledContainerButton, StyledRight ,StyledLittle , StyledLeft};
