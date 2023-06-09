@@ -14,7 +14,7 @@ const Header = ({active, setActive})=>{
                     <StyledH3>Dark Mode</StyledH3>
                     <StyledContainerButton active={active}>
                         <StyledLittle 
-                        onClick={()=>darkMode(active,setActive)}
+                        onClick={()=>dark(active,setActive)}
                         active={active}
                         ></StyledLittle>
                     </StyledContainerButton>
@@ -24,7 +24,7 @@ const Header = ({active, setActive})=>{
     )
 }
 
-const darkMode = (active, setActive) =>{
+const dark = (active, setActive) =>{
     setActive(!active)
 }
 
