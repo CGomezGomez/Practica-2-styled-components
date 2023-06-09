@@ -44,8 +44,17 @@ body {
     margin-top: 3rem;
 
 }
+
+.overview {
+   
+    width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 30px;
+  
+}
 `
 ;
-
 
 export {GlobalStyles};

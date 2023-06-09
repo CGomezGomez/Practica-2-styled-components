@@ -69,6 +69,7 @@ const StyledH1 = styled.h1`
 `;
 
 const StyledH3 = styled.h3`
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;

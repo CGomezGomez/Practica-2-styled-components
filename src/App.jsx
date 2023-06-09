@@ -1,6 +1,8 @@
 import Followers from "./components/Followers/Followers";
 import Header from "./components/Header/Header";
+import Overview from "./components/Overview/Overview";
 import { FOLLOWERS } from "./constants/followers";
+import { OVERVIEW } from "./constants/overview";
 import { GlobalStyles } from "./styles/globalStyles";
 import { useState } from "react";
 
@@ -42,6 +44,28 @@ const App = () => {
 				<h2 className="texto">Overview - Today</h2>
 			</div>
 
+			<div className="overview">
+				{
+	
+				OVERVIEW.map(overview=>(
+
+					<Overview
+						key={overview.id}
+						src={overview.src}
+						arrow={overview.arrow}
+						alt={overview.alt}
+						texto={overview.texto}
+						number={overview.number}
+						percentage={overview.percentage}
+						color={overview.color}
+						active={active}
+						setActive={setActive}
+					/>
+				))
+				}
+				
+			</div>
+				
 		</>
 	)
 };
